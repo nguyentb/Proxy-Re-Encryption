@@ -4,7 +4,7 @@
   "description": "An efficient pairing free PRE.",
   "main": "pf-pre.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node application.js"
   },
   "author": {
     "name": "Nguyen Truong",

@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nguyentb/pf-pre.git"
+    "url": "https://github.com/nguyentb/Proxy-Re-Encryption.git"
   },
   "license": "GNU General Public License",
   "dependencies": {

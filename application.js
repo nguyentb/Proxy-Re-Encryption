@@ -10,8 +10,9 @@ PRE.init(L0, L1, PRE.CURVE.SECP256K1).then(() => {
   const DataConsumer = new PREClient(); // authorised service provider
   const ThirdParty = new PREClient(); // unauthorised thirdparty
 
-  // M is private data owned by Data Owner which is a private message to be shared with Data Consumer
-	// Curerntly, Proxy Encryption scheme is only suitable for a short message which should be no longer than L0, usually AES key in symmetric encryption
+  // M is personal information owned by Data Owner which is a private message to be shared with Data Consumer
+	// Curerntly, Proxy Encryption scheme is only suitable for a short message which should be no longer than L0
+	// The message M is usually an AES key used in symmetric encryption
   const M = crypto.randomBytes(L0);
   DataOwner.keyGen();
   DataConsumer.keyGen();

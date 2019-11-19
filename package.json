@@ -1,0 +1,29 @@
+{
+  "name": "pair-free-pre",
+  "version": "0.0.1",
+  "description": "An efficient pairing free PRE.",
+  "main": "pf-pre.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": {
+    "name": "Nguyen Truong",
+    "email": "n.truong@imperial.ac.uk",
+    "url": "https://github.com/nguyentb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyentb/pf-pre.git"
+  },
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "clean": "^4.0.2",
+    "crypto-browserify": "^3.12.0",
+    "mcl-wasm": "^0.3.7"
+  },
+  "keywords": [
+    "pairing-free",
+    "proxy re-encryption",
+    "pre"
+  ]
+}
